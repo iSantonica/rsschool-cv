@@ -4,6 +4,7 @@
 
 - [Github](https://github.com/iSantonica)
 - [LinkedIn](https://www.linkedin.com/in/inga-mitina/)
+- [Inga Mitina (@iSantonica)]()
 
 ## About me
 
@@ -27,25 +28,29 @@ I can't say whether I prefer frontend or backend development, I enjoy both. My g
 
 **Convert string to camel case:** _Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized._
 
-```
-function toCamelCase(str){
+```js
+function toCamelCase(str) {
   const array = str.split(/[-_]/);
-  const result = array.map((word, index) => index === 0 ? word : word.at(0).toUpperCase() + word.slice(1)).join('');
+  const result = array
+    .map((word, index) =>
+      index === 0 ? word : word.at(0).toUpperCase() + word.slice(1)
+    )
+    .join("");
   return result;
 }
 ```
 
 ## Experience
 
-**WordPress developer**
+**WordPress developer.**
 _Ivory Web Studio | April 2019 - May 2022_
 
-**Junior Web developer**
+**Junior Web developer.**
 _Lion Art Web Studio | June 2017 - April 2019_
 
 ## Certifications
 
-**Medium level of WordPress**
+**Medium level of WordPress.**
 _Softgroup WordPress Academy | 2017_
 
 ## Languages
