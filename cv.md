@@ -4,7 +4,6 @@
 
 - [Github](https://github.com/iSantonica)
 - [LinkedIn](https://www.linkedin.com/in/inga-mitina/)
-- [Inga Mitina (@iSantonica)]()
 
 ## About me
 
