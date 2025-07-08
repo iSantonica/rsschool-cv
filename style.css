@@ -169,6 +169,24 @@ img {
   width: 80px;
 }
 
+.contacts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 8px;
+}
+
+.contacts-list i {
+  width: 20px;
+  text-align: center;
+  color: var(--color-txt-primary);
+}
+
 @media (max-width: 1024px) {
   .header-content h1 {
     font-size: 3rem;
