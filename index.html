@@ -132,14 +132,8 @@
               always capitalized.</i>
           </p>
           <pre class="code-example"><code>
-    function toCamelCase(str) {
-      const array = str.split(/[-_]/);
-      const result = array
-        .map((word, index) =>
-          index === 0 ? word : word.at(0).toUpperCase() + word.slice(1)
-        )
-        .join("");
-      return result;
+    function spread(func, args) {
+      return func(...args);
     }
     </code></pre>
         </section>
